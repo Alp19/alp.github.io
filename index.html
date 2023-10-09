@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alp Blockchain Data Repository</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to right, #512e5f, #8e44ad);
+            /* Dark Purple Gradient */
+            color: #ffffff;
+            /* White */
+            text-align: center;
+            /* Ortala */
+        }
+
+        h1 {
+            color: #d35400;
+            /* Dark Orange */
+        }
+
+        h2 {
+            color: #8e44ad;
+            /* Dark Purple */
+        }
+
+        .accordion {
+            background-color: #8e44ad;
+            /* Dark Purple */
+            color: #ffffff;
+            /* White */
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 18px;
+            transition: 0.4s;
+            margin-bottom: 10px;
+            /* 10px boşluk bırak */
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: #c0392b;
+            /* Dark Red */
+        }
+
+        .panel {
+            padding: 10px;
+            display: none;
+            background-color: #512e5f;
+            /* Dark Purple */
+            overflow: hidden;
+            text-align: center;
+            /* Ortala */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #9b59b6;
+            /* Dark Purple */
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #8e44ad;
+            /* Dark Purple */
+        }
+
+        a {
+            color: #c0392b;
+            /* Dark Red */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #e74c3c;
+            /* Lighter Dark Red */
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #9b59b6;
+            /* Dark Purple */
+        }
+
+        .donate-btn {
+            color: #ffffff;
+            /* White */
+            text-decoration: none;
+            border: 2px solid #ffffff;
+            /* White */
+            background-color: #c0392b;
+            /* Dark Red */
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background 0.3s, color 0.3s;
+            margin-bottom: 20px; /* 20px boşluk bırak */
+        }
+
+        .donate-btn:hover {
+            background: #ffffff;
+            /* White */
+            color: #c0392b;
+            /* Dark Red */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Alp Blockchain Data Repository</h1>
+    <p>This is a repository of blockchain data provided by Alp's nodes in Greece.</p>
+    <p>We regularly update blockchain data for various cryptocurrencies to promote financial freedom through decentralized networks.</p>
+
+    <!-- Wikiye Yönlendirme Butonu -->
+    <a href="wiki.html" class="donate-btn">Go to Wiki</a>
+
+    <!-- Bitcoin (BTC) Tablosu -->
+    <button class="accordion">Bitcoin (BTC)</button>
+    <div class="panel">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>File Link</th>
+            </tr>
+            <tr>
+                <td>2023-10-09</td>
+                <td><a href="btc_data_2023_10_09.zip" target="_blank">Download</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Litecoin (LTC) Tablosu -->
+    <button class="accordion">Litecoin (LTC)</button>
+    <div class="panel">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>File Link</th>
+            </tr>
+            <tr>
+                <td>2023-10-09</td>
+                <td><a href="ltc_data_2023_10_09.zip" target="_blank">Download</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Dogecoin (DOGE) Tablosu -->
+    <button class="accordion">Dogecoin (DOGE)</button>
+    <div class="panel">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>File Link</th>
+            </tr>
+            <tr>
+                <td>2023-10-09</td>
+                <td><a href="doge_data_2023_10_09.zip" target="_blank">Download</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Yentencoin (YTN) Tablosu -->
+    <button class="accordion">Yentencoin (YTN)</button>
+    <div class="panel">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>File Link</th>
+            </tr>
+            <tr>
+                <td>2023-10-09</td>
+                <td><a href="ytn_data_2023_10_09.zip" target="_blank">Download</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Vertcoin (VTC) Tablosu -->
+    <button class="accordion">Vertcoin (VTC)</button>
+    <div class="panel">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>File Link</th>
+            </tr>
+            <tr>
+                <td>2023-10-09</td>
+                <td><a href="vtc_data_2023_10_09.zip" target="_blank">Download</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Pigeoncoin (PGN) Tablosu -->
+    <button class="accordion">Pigeoncoin (PGN)</button>
+    <div class="panel">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>File Link</th>
+            </tr>
+            <tr>
+                <td>2023-10-09</td>
+                <td><a href="pgn_data_2023_10_09.zip" target="_blank">Download</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Monero (XMR) Tablosu -->
+    <button class="accordion">Monero (XMR)</button>
+    <div class="panel">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>File Link</th>
+            </tr>
+            <tr>
+                <td>2023-10-09</td>
+                <td><a href="xmr_data_2023_10_09.zip" target="_blank">Download</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Koto (KOTO) Tablosu -->
+    <button class="accordion">Koto (KOTO)</button>
+    <div class="panel">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>File Link</th>
+            </tr>
+            <tr>
+                <td>2023-10-09</td>
+                <td><a href="koto_data_2023_10_09.zip" target="_blank">Download</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- İletişim ve Bağış Yap Kısmı -->
+    <h2 style="color: #c0392b;">Make a Donation</h2>
+    <p>Your donations help us maintain our nodes and continue providing free blockchain data. Thank you for your support!</p>
+    <a href="donate.html" class="donate-btn">Donate Now</a>
+
+    <footer>
+        <p>Contact: journalistalp@icloud.com</p>
+    </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
